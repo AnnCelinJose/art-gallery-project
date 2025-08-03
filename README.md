@@ -17,6 +17,4 @@ A simple, responsive login page for ArtWorld built with HTML, CSS, and Bootstrap
 - CSS3
 - Bootstrap 5
 
----
-
-Feel free to customize or extend the design!
+--
