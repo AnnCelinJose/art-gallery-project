@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Art Gallery - Display</title>
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    body {
+      background: linear-gradient(to bottom, #fefcea, #f1f1f1);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .card {
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+    }
+
+    .navbar {
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      font-weight: bold;
+      color: #198754;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ArtWorld</a>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h2 class="text-center mb-2">Explore Our Art Collection</h2>
+    <p class="text-center text-muted mb-4">Click on any artwork to view details</p>
+
+    <div class="row g-4">
+      
+      <div class="col-md-4">
+        <div class="card">
+          <img src="art1.png" class="card-img-top" alt="Sunset Bliss">
+          <div class="card-body">
+            <h5 class="card-title">Sunset Bliss</h5>
+            <p class="card-text text-muted">By A. Sharma</p>
+            <a href="art1.html" class="btn btn-outline-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+
+     
+      <div class="col-md-4">
+        <div class="card">
+          <img src="art2.png" class="card-img-top" alt="Mystic Forest">
+          <div class="card-body">
+            <h5 class="card-title">Mystic Forest</h5>
+            <p class="card-text text-muted">By R. Iyer</p>
+            <a href="art2.html" class="btn btn-outline-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-md-4">
+        <div class="card">
+          <img src="art3.png" class="card-img-top" alt="Ocean Dreams">
+          <div class="card-body">
+            <h5 class="card-title">Ocean Dreams</h5>
+            <p class="card-text text-muted">By K. Varma</p>
+            <a href="art3.html" class="btn btn-outline-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-md-4">
+        <div class="card">
+          <img src="art4.png" class="card-img-top" alt="Golden Horizon">
+          <div class="card-body">
+            <h5 class="card-title">Golden Horizon</h5>
+            <p class="card-text text-muted">By M. Rao</p>
+            <a href="art4.html" class="btn btn-outline-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-md-4">
+        <div class="card">
+          <img src="art5.png" class="card-img-top" alt="Urban Mirage">
+          <div class="card-body">
+            <h5 class="card-title">Urban Mirage</h5>
+            <p class="card-text text-muted">By T. Mehra</p>
+            <a href="art5.html" class="btn btn-outline-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
